@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "gds-import"
 
   tags = {
-    Name = "Gagan-devops-server-v2"
+    Name = "izaz-devops-server-v2"
     env = "production"
     owner = "Vinay"
   }
